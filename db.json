@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Andrea Ardila",
+      "phone": "1234567890",
+      "password": "1234a",
+      "isOnline": false,
+      "lastConexion": "Fri Mar 01 2024 14:35:45 GMT-0500 (hora estándar de Colombia)",
+      "image": "https://toppng.com/uploads/preview/user-font-awesome-nuevo-usuario-icono-11563566658mjtfvilgcs.png"
+    },
+    {
+      "id": 2,
+      "name": "Estefanía Vargas",
+      "phone": "3234567890",
+      "password": "1234a",
+      "isOnline": false,
+      "lastConexion": "Fri Mar 01 2024 14:35:45 GMT-0500 (hora estándar de Colombia)",
+      "image": "https://toppng.com/uploads/preview/user-font-awesome-nuevo-usuario-icono-11563566658mjtfvilgcs.png"
+    }
+  ],
+  "conversations": [
+    {
+      "id": 1,
+      "senderId": 2,
+      "receptorId": 1,
+      "messages": [
+        {
+          "sender": 2,
+          "date": "Fri Mar 01 2024 14:35:45 GMT-0500 (hora estándar de Colombia)",
+          "message": "Hola, cómo estás Andrea?",
+          "seen": true
+        },
+        {
+          "sender": 1,
+          "date": "Fri Mar 01 2024 14:35:45 GMT-0500 (hora estándar de Colombia)",
+          "message": "Hola Estefa, muy bien y tu?",
+          "seen": false
+        }
+      ]
+    }
+  ],
+  "movimientos": [
+    {
+      "id": 2,
+      "descripcion": "Pago salario",
+      "tipo": "ingreso",
+      "valor": 500000
+    },
+    {
+      "descripcion": "Nuevo deposito",
+      "tipo": "ingreso",
+      "valor": "600000",
+      "id": 6
+    },
+    {
+      "descripcion": "Vamos a regalarle algo a Loki",
+      "tipo": "gasto",
+      "valor": "12000",
+      "id": 7
+    },
+    {
+      "descripcion": "Nuevo deposito",
+      "tipo": "ingreso",
+      "valor": "700000",
+      "creationDate": "2024-03-01T20:55:42.722Z",
+      "validate": false,
+      "id": 8
+    }
+  ]
+}
