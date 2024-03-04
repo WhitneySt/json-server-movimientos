@@ -50,22 +50,38 @@
     {
       "descripcion": "Nuevo deposito",
       "tipo": "ingreso",
-      "valor": "600000",
+      "valor": "60000",
       "id": 6
     },
     {
       "descripcion": "Vamos a regalarle algo a Loki",
       "tipo": "gasto",
-      "valor": "12000",
+      "valor": "20000",
       "id": 7
     },
     {
-      "descripcion": "Nuevo deposito",
+      "descripcion": "Ingreso extra",
       "tipo": "ingreso",
       "valor": "700000",
       "creationDate": "2024-03-01T20:55:42.722Z",
       "validate": false,
       "id": 8
+    },
+    {
+      "descripcion": "Compra del mercado",
+      "tipo": "gasto",
+      "valor": "250000",
+      "creationDate": "2024-03-04T19:50:16.224Z",
+      "validate": false,
+      "id": 9
+    },
+    {
+      "descripcion": "Pagar el agua",
+      "tipo": "gasto",
+      "valor": "80000",
+      "creationDate": "2024-03-04T20:06:40.342Z",
+      "validate": false,
+      "id": 10
     }
   ]
 }
